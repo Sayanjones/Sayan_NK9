@@ -1,0 +1,27 @@
+=======================================================
+  Assignment 2 - Translation Evaluation Scores
+  Model : facebook/nllb-200-distilled-600M (Meta AI)
+  Task  : English to Hindi Translation
+  Sentences Evaluated: 150
+=======================================================
+
+BLEU Score : 0.0368
+  Measures n-gram overlap. Range 0-100. Higher is better.
+
+CHRF Score : 0.1222
+  Character n-gram F-score. Great for Hindi (morphologically rich).
+  Range 0-100. Higher is better.
+
+TER Score  : 123.2276
+  Translation Edit Rate. Edits needed to match reference.
+  Lower is better.
+
+=======================================================
+Full BLEU details:
+BLEU = 0.04 1.2/0.0/0.0/0.0 (BP = 1.000 ratio = 1.006 hyp_len = 2498 ref_len = 2482)
+
+Full CHRF details:
+chrF2 = 0.12
+
+Full TER  details:
+TER = 123.23
