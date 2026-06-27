@@ -1,0 +1,22 @@
+=======================================================
+  Assignment 2 — Translation Evaluation Scores
+  Model : Claude (claude-sonnet-4-6) via Anthropic API
+  Task  : English → Hindi Translation
+  Sentences Evaluated: 150
+=======================================================
+
+BLEU Score : 0.037
+  Measures n-gram overlap. Range: 0-100. Higher is better.
+
+CHRF Score : 0.1486
+  Character n-gram F-score. Better for morphologically rich languages like Hindi.
+  Range: 0-100. Higher is better.
+
+TER Score  : 123.5075
+  Translation Edit Rate. Edits needed to match reference.
+  Range: 0+. Lower is better.
+
+=======================================================
+Full BLEU : BLEU = 0.04 1.2/0.0/0.0/0.0 (BP = 1.000 ratio = 1.003 hyp_len = 2489 ref_len = 2482)
+Full CHRF : chrF2 = 0.15
+Full TER  : TER = 123.51
