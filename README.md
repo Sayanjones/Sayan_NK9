@@ -1,4 +1,4 @@
-# NLP Technical Assessment — English-Hindi Dataset Processing & Translation
+# NLP Technical Assessment - English-Hindi Dataset Processing & Translation
 
 ## Repository Structure
 
