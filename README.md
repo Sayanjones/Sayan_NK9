@@ -5,6 +5,7 @@
 ```
 ├── assignment1.py                        # Assignment 1: Dataset processing script
 ├── assignment2.py                        # Assignment 2: LLM translation script
+├── Assignment2_Translation.ipynb         # Assignment 2: LLM translation script(Google.Colab)
 ├── Assignment1_English_Hindi_Dataset.xlsx  # Assignment 1 final Excel output
 ├── Assignment2_Translation_Output.xlsx   # Assignment 2 final Excel output
 ├── assignment1_cleaned.csv              # Cleaned dataset from Assignment 1
