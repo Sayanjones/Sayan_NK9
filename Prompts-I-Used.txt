@@ -1,0 +1,22 @@
+Prompt 1 - Assignment 1: Dataset Processing
+
+I have a technical NLP assessment. For Assignment 1, I need to process the 'ainlpml/english-hindi' dataset from HuggingFace. Write a complete Python script that:
+1. Loads the dataset using the `datasets` library
+2. Extracts English and Hindi sentences into two separate columns
+3. Computes word counts for both languages and filters rows where word count is between 5 and 55 in both
+4. Calculates word count difference and keeps only pairs where the difference is within −10 to +10
+5. Computes character counts for both languages and their difference
+6. Exports the cleaned dataset to a professionally formatted Excel file with all 8 required columns and a summary sheet
+
+
+
+Prompt 2 - Assignment 2: LLM Translation
+
+For Assignment 2, using the cleaned CSV from Assignment 1, write a complete Python script that:
+1. Takes 150 English sentences from the cleaned dataset
+2. Translates them to Hindi using an LLM (not Google Translate, not Helsinki-NLP)
+3. Calculates BLEU, CHRF, and TER scores against the reference Hindi translations using sacrebleu
+4. Saves the evaluation scores to a 'scores.txt' file
+5. Exports results to a formatted Excel file with two sheets: one for translations and one for evaluation scores
+
+
